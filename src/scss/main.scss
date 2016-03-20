@@ -1,0 +1,19 @@
+// vendor
+// bower:scss
+@import "../bower_components/support-for/sass/_support-for.scss";
+@import "../bower_components/normalize.scss/sass/normalize/_import-now.scss";
+// endbower
+
+// partials
+@import "fonts/fonts";
+
+@import "partials/script";
+
+@import "partials/page";
+@import "partials/typo";
+
+@import "partials/header";
+@import "partials/content";
+@import "partials/footer";
+
+@import "partials/shame"; // clear asap

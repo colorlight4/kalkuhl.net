@@ -1,0 +1,10 @@
+{
+  "name": "kalkuhl-net",
+  "version": "0.1.0",
+  "dependencies": {
+    "flx-grid-scss": "colorlight4/flx-grid-scss",
+    "jquery": "^2.2.2",
+    "modernizr": "^3.3.1",
+    "normalize.scss": "4.0.3"
+  }
+}
