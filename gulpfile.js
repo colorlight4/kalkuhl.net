@@ -113,7 +113,7 @@ gulp.task('clean', function () {
 // use task
 
 gulp.task('watch', function() { 
-    gulp.watch('src/jade/**/*.jade', ['jade']); 
+    gulp.watch('src/jade/**/*.jade', ['tmpl']); 
     gulp.watch('src/scss/**/*.scss', ['scss']);
     gulp.watch('src/js/**/*', ['js']);
 });

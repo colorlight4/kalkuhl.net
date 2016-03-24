@@ -1,0 +1,23 @@
+header {
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	font-family: $fatface;
+	text-align: center;
+
+	h1 {
+		margin: 0;
+
+		font-weight: normal;
+		font-size: 7.4em;
+		width: 100%;
+	}
+
+	div {
+		display: none;
+	}
+}
