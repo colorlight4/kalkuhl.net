@@ -13,15 +13,20 @@
 		text-align: center;
 		margin-top: -45px;
 
-		&:before {
-			content: ":)";
-			transform: rotate(90deg);
-			display: block;
-			margin-bottom: fz(1);
-		}
+		span {
+			display: inline-block;
 
-		&:hover:before {
-			content: ":P";
+			&:before {
+				content: ":)";
+				transform: rotate(90deg);
+				display: block;
+				margin-bottom: fz(1);
+				pointer-events: none;
+			}
+
+			&:hover:before {
+				content: ":P";
+			}
 		}
 	}
 }
