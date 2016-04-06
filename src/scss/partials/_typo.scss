@@ -1,5 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
 
-//
+// ksl
 
-$fatface: 'Abril Fatface', cursive;
+.page {
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+@for $i from 1 to 6 {
+	h#{$i} {
+		font-size: fz(1.25);
+		font-weight: normal;
+	}
+}
+
+a {
+	color: $link;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

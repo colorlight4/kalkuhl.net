@@ -1,6 +1,6 @@
 # kalkuhl-net
 
-> the code of my website
+> my website
 
 
 ## Installing

@@ -1,0 +1,19 @@
+// vars
+
+$header-txt: white;
+$header-bg: #34495E;
+
+$txt: grey;
+
+$link: #ffca45;
+
+$blk: #000;
+$wht: #fff;
+
+$fz-norm: 16px;
+
+// functions
+
+@function fz($font-size) {
+	@return #{$font-size}em;
+}

@@ -1,23 +1,27 @@
-header {
-	height: 80vh;
+.page > header {
+	background: $header-bg;
+	height: 95vh;
+	color: $header-txt;
+
 	display: flex;
-	justify-content: center;
 	align-content: center;
-	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 
-	font-family: $fatface;
-	text-align: center;
-
 	h1 {
-		margin: 0;
+		flex-basis: 100%;
+		text-align: center;
+		margin-top: -45px;
 
-		font-weight: normal;
-		font-size: 7.4em;
-		width: 100%;
-	}
+		&:before {
+			content: ":)";
+			transform: rotate(90deg);
+			display: block;
+			margin-bottom: fz(1);
+		}
 
-	div {
-		display: none;
+		&:hover:before {
+			content: ":P";
+		}
 	}
 }
