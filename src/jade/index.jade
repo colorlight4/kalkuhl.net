@@ -1,28 +1,30 @@
-include partials/head.jade
+doctype html
 
-body.page.home
-	
-	header
-		h1 
-			span Hi, my name is Felix <br> and i'm a 
-				<a href="https://medium.com/tony-stubblebine/the-sad-state-of-job-titles-d705832560f5#.r5rtkv5xb" target="_blank"> Designhacker</a>.
+html
 
-		.some-links <a href="https://twitter.com/colorlight4" target="_blank">twitter</a> / <a href="https://github.com/colorlight4" target="_blank">github</a>
+	include partials/head.jade
+
+	body.page.home
+		
+		header
+			h1 
+				span Hi, my name is Felix <br> and i'm a 
+					<a href="https://medium.com/tony-stubblebine/the-sad-state-of-job-titles-d705832560f5#.r5rtkv5xb" target="_blank"> Designhacker</a>.
+
+			.some-links <a href="https://twitter.com/colorlight4" target="_blank">twitter</a> / <a href="https://github.com/colorlight4" target="_blank">github</a>
 
 
-	main
-		h3 some of my work
+		main
+			h3 some of my work
 
-		.item
-			.img
-				img(src="https://images.unsplash.com/photo-1458640904116-093b74971de9?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=700", alt="")
-			.item-txt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non veritatis, eum id optio amet consequatur cupiditate, error blanditiis enim.
+			.item
+				.img
+					img(src="https://images.unsplash.com/photo-1458640904116-093b74971de9?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=700", alt="")
+				.item-txt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non veritatis, eum id optio amet consequatur cupiditate, error blanditiis enim.
 
-		.item
-			.img
-				img(src="https://images.unsplash.com/photo-1458640904116-093b74971de9?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=700", alt="")
-			.item-txt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non veritatis, eum id optio amet consequatur cupiditate, error blanditiis enim.
+			.item
+				.img
+					img(src="https://images.unsplash.com/photo-1458640904116-093b74971de9?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=700", alt="")
+				.item-txt Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis non veritatis, eum id optio amet consequatur cupiditate, error blanditiis enim.
 
-	
-
-	include partials/footer.jade
+		include partials/footer.html
