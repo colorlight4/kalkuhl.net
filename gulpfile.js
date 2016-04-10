@@ -114,6 +114,7 @@ gulp.task('clean', function () {
 
 gulp.task('watch', function() { 
     gulp.watch('src/jade/**/*.jade', ['tmpl']); 
+    gulp.watch('src/jade/**/*.html', ['tmpl']); 
     gulp.watch('src/scss/**/*.scss', ['scss']);
     gulp.watch('src/js/**/*', ['js']);
 });
