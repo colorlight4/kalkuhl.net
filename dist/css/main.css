@@ -477,6 +477,9 @@ a {
       display: block;
       padding: 20px 0; }
 
+.page.contact > main {
+  margin: 0 auto; }
+
 .page > footer {
   text-align: center;
   margin: 120px 0 60px; }
