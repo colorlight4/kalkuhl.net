@@ -15,4 +15,3 @@ Thumbs.db
 *.log
 node_modules/
 **/.sass-cache/*
-dist/
