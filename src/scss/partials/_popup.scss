@@ -1,0 +1,11 @@
+.cc_banner-wrapper {
+	height: 63px !important;
+	background-color: #222;
+	.cc_container .cc_btn, .cc_container .cc_btn:visited{
+	    background-color: $link !important;
+	    color: $blk !important;
+	}
+	.cc_container a {
+		color: $link !important;
+	}
+}

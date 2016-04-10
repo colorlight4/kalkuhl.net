@@ -54,7 +54,7 @@ gulp.task('scss', function() {
 
 
 gulp.task('js', function() {
-    gulp.src('src/js/main.js')
+    gulp.src('src/js/*.js')
         .pipe(include())
         .on('error', console.log)
         .pipe(gulp.dest('dist/js/'))
